@@ -1,4 +1,4 @@
-import addresses from '../../../../utils/data/address.json';
+import addresses from '~/utils/data/address.json';
 
 export async function GET() {
   return new Response(JSON.stringify(addresses.cities), {
