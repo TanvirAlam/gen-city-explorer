@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import addresses from '../../../utils/data/address.json';
+import addresses from '../../../../utils/data/address.json';
 
 function haversine(lat1: number, lon1: number, lat2: number, lon2: number): number {
   const R = 6371;

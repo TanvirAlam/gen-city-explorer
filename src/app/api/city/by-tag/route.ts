@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import addresses from '../../../utils/data/address.json';
+import addresses from '../../../../utils/data/address.json';
 
 export async function GET(req: Request) {
   console.log('API route /api/city/by-tag hit');
