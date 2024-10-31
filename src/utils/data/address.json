@@ -1,0 +1,50 @@
+{
+    "cities": [
+      {
+        "guid": "ed354fef-31d3-44a9-b92f-4a3bd7eb0408",
+        "name": "Sample City One",
+        "tag": "excepteurus",
+        "latitude": -1.409358,
+        "longitude": -37.257104,
+        "isActive": true,
+        "address": "123 Main Street, Sampleville, State A, 12345"
+      },
+      {
+        "guid": "17f4ceee-8270-4119-87c0-9c1ef946695e",
+        "name": "Sample City Two",
+        "tag": "loremipsum",
+        "latitude": 52.520008,
+        "longitude": 13.404954,
+        "isActive": true,
+        "address": "456 Another Rd, Exampletown, State B, 67890"
+      },
+      {
+        "guid": "9bce4eed-3f76-4f8b-9c47-4c3afebea8ab",
+        "name": "Sample City Three",
+        "tag": "dolorsitamet",
+        "latitude": 48.856613,
+        "longitude": 2.352222,
+        "isActive": false,
+        "address": "789 Sample Blvd, Testville, State C, 11121"
+      },
+      {
+        "guid": "5d6dbe8b-8c30-4c79-bc1b-7268ec965091",
+        "name": "Sample City Four",
+        "tag": "adventure",
+        "latitude": 34.052235,
+        "longitude": -118.243683,
+        "isActive": true,
+        "address": "101 City Center, Bigcity, State D, 33333"
+      },
+      {
+        "guid": "3f236dc7-8a1c-4df2-9c22-2adba5f2394e",
+        "name": "Sample City Five",
+        "tag": "exploration",
+        "latitude": 40.712776,
+        "longitude": -74.005974,
+        "isActive": false,
+        "address": "202 Liberty Ave, Metropolis, State E, 44444"
+      }
+    ]
+}
+  
