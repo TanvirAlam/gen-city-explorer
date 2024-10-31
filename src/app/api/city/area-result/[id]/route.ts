@@ -1,15 +1,7 @@
-// src/app/api/city/area-result/[id]/route.ts
 import { NextResponse } from 'next/server';
 import addresses from '~/utils/data/address.json';
+import { haversine } from '~/utils/mixins';
 import { City } from '~/utils/types';
-
-function haversine(lat1: number, lon1: number, lat2: number, lon2: number): number {
-  const R = 6371; // Radius of Earth in km
-  const dLat = (lat2 - lat1) * Math.PI / 180;
-  const dLon = (lon2 - lon1) * Math.PI / 180;
-  const a = Math.sin(dLat / 2) ** 2 + Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * Math.sin(dLon / 2) ** 2;
-  return 2 * R * Math.asin(Math.sqrt(a));
-}
 
 export async function GET(req: Request, { params }: { params: { id: string } }) {
   const id = params.id;
