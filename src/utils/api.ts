@@ -17,3 +17,18 @@ export const calculateDistance = async (from: string, to: string) => {
   });
   return response.data;
 };
+
+export const fetchArea = async (from: string, distance: number) => {
+  const response = await axios.get(`${API_URL}/area`, {
+    headers: { Authorization: 'Bearer dGhlc2VjcmV0dG9rZW4=' },
+    params: { from, distance },
+  });
+  return response.data;
+};
+
+export const fetchAreaResult = async (url: string) => {
+  const response = await axios.get(url, {
+    headers: { Authorization: 'Bearer dGhlc2VjcmV0dG9rZW4=' },
+  });
+  return response;
+};
