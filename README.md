@@ -16,7 +16,8 @@ Files worked on:
 
 - `Page.tsx` - Interface GUI with tailwindcss
 
-- API ENDPOINT: `app/api/city`
+- API ENDPOINT: 
+    - `app/api/city`
     - `app/api/city/by-tag`
     - `app/api/city/distance`
     - `app/api/city/all-cities`
